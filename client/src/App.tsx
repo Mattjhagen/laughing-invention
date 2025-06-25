@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Router, Route, Switch } from "wouter";
 import { AuthProvider } from "@/hooks/useAuth";
 import ProtectedRoute from "@/components/ProtectedRoute";
-import Index from "./pages/Index";
+import Index from "./components/index/Index";
 import Auth from "./pages/Auth";
 import Dashboard from "./components/dashboard/Dashboard";
 import NotFound from "./pages/NotFound";
