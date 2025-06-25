@@ -1,6 +1,6 @@
 import { CallToAction } from "client/src/components/CallToAction.tsx";
 import { Hero } from "client/src/components/Hero.tsx";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { TooltipProvider } from "/src/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Router, Route, Switch } from "wouter";
 import { AuthProvider } from "client/src/components/auth/AuthForm.tsx";
