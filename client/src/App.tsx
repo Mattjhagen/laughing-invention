@@ -6,7 +6,7 @@ import { Router, Route, Switch } from "wouter";
 import { AuthProvider } from "client/src/components/auth/AuthForm.tsx";
 import ProtectedRoute from "client/src/components/ProtectedRoute.tsx";
 import Index from "./components/index/Index";
-import Auth from ".client/src/hooks/useAuth.tsx";
+import Auth from "./client/src/hooks/useAuth.tsx";
 import Dashboard from "./components/dashboard/Dashboard";
 import NotFound from "./pages/NotFound";
 
